@@ -96,8 +96,7 @@ const convertNumber = (decimal) => {
 
             if(decimal >= 40) {
 
-                romanArray.push("X");
-                romanArray.push("L");
+                romanArray.push("XL");
                 return convertNumber(decimal % 10);
 
             } else {
