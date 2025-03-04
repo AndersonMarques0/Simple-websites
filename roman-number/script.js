@@ -104,7 +104,7 @@ const convertNumber = (decimal) => {
             } else {
                 
                 contagem = decimal / 10;
-                for(contagem; contagem > 1; contagem--) {
+                for(contagem; contagem > 0; contagem--) {
                     romanArray.push("X");
                 }
                 
