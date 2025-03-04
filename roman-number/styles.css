@@ -1,0 +1,87 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background-color: #f7ede2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal */
+.container {
+    background: #ffddd2;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Título */
+h1 {
+    color: #6d6875;
+    margin-bottom: 10px;
+}
+
+/* Parágrafo explicativo */
+p {
+    color: #8d8a94;
+    margin-bottom: 15px;
+}
+
+/* Grupo de entrada */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #d3a588;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    background-color: #e29578;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #f4a261;
+}
+
+/* Seção de resultado */
+.output-container {
+    margin-top: 15px;
+    background: #f6bd60;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #6d6875;
+}
+
+#output {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
