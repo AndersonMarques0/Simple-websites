@@ -1,2 +1,5 @@
-# Palindrome-check
-This is a simple website to check if a word or sentece is a palindrome.
+# Projetos de sites simples
+
+Todos meus projetos usando HTML, CSS e JavaScript apenas.
+
+
