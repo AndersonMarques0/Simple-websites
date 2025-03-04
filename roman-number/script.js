@@ -62,7 +62,7 @@ const convertNumber = (decimal) => {
 
             } else {
                 
-                for(contagem = Math.floor(decimal / 100); contagem > 1; contagem--) {
+                for(contagem = decimal / 100; contagem > 1; contagem--) {
                     romanArray.push("C");
                 }
 
@@ -82,7 +82,7 @@ const convertNumber = (decimal) => {
         } else if(decimal > 50 && decimal < 90) {
             
             romanArray.push("L");
-            for(contagem = (decimal % 50) / 10; contagem > 0; contagem--) {
+            for(contagem = (decimal % 50) / 10; contagem > 1; contagem--) {
                 romanArray.push("X");
             }
             
